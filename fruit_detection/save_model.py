@@ -1,5 +1,5 @@
 from keras.models import Model
-from plant_seedlings.config import *
+from fruit_detection.config import *
 
 def save_model(model):
     """"

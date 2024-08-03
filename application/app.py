@@ -48,22 +48,32 @@ if __name__=="__main__":
 		# transforms smt like [0.33,0.67] into [0,1]
 		pred = np.argmax(eval,axis=-1) #(eval_vgg > 0.5).astype("int32")
 			
-		class_names = {0: 'Black-grass',
-						1: 'Charlock',
-						2: 'Cleavers',
-						3: 'Common_Chickweed',
-						4: 'Common_wheat',
-						5: 'Fat_Hen',
-						6: 'Loose_Silky-bent',
-						7: 'Maize',
-						8: 'Scentless_Mayweed',
-						9: 'Shepherd_Purse',
-						10: 'Small-flowered_Cranesbill',
-						11: 'Sugar_beet'}
-		# meaning: [0,1]: not_hot_dog
-		#          [1,0]: hot_dog
-			
-		print("pred_vgg", int(pred),)
+		class_names = {0: 'apple_6',
+ 						1: 'apple_braeburn_1',
+ 						2: 'apple_crimson_snow_1',
+ 						3: 'apple_golden_1',
+ 						4: 'apple_golden_2',
+ 						5: 'apple_golden_3',
+ 						6: 'apple_granny_smith_1',
+ 						7: 'apple_hit_1',
+ 						8: 'apple_pink_lady_1',
+ 						9: 'apple_red_1',
+ 						10: 'apple_red_2',
+ 						11: 'apple_red_3',
+ 						12: 'apple_red_delicios_1',
+ 						13: 'apple_red_yellow_1',
+ 						14: 'apple_rotten_1',
+ 						15: 'cabbage_white_1',
+ 						16: 'carrot_1',
+ 						17: 'cucumber_1',
+ 						18: 'cucumber_3',
+ 						19: 'eggplant_long_1',
+ 						20: 'pear_1',
+ 						21: 'pear_3',
+ 						22: 'zucchini_1',
+ 						23: 'zucchini_dark_1'}
+		
+		print("predicted", int(pred),)
 		ind = int(pred)
 		prediction = class_names[ind]
 			

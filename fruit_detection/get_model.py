@@ -1,6 +1,6 @@
 from keras.models import Model
 from keras.layers import Input, Conv2D, MaxPooling2D, Flatten, Dense, Dropout
-from plant_seedlings.config import *
+from fruit_detection.config import *
 #from data_generator import *
 
 def get_model():

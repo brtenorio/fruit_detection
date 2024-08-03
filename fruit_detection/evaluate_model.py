@@ -1,5 +1,5 @@
 from keras.models import load_model
-from plant_seedlings.config import *
+from fruit_detection.config import *
 
 
 def evaluate_model(test):

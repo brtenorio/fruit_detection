@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "plant_seedlings"
+name = "fruit_detection"
 version = "0.1.0"
-description = "CNN for recognizing plant seeds"
+description = "CNN for recognizing fruit species"
 authors = ["brtenorio <b.nunes.bruno@gmail.com>"]
 
 [tool.poetry.dependencies]

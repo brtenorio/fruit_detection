@@ -1,9 +1,10 @@
-# Plant Seedlings
+# Fruit Detection
 
-Plant Seedlings is a Convolutional Neural Network (CNN) application for recognizing plant seeds. This project uses Streamlit for the web interface and Poetry for dependency management.
+Fruit Detection is a Convolutional Neural Network (CNN) application trained on a dataset of images containing fruits, vegetables, and nuts. This project uses Streamlit for the web interface and Poetry for dependency management.
 
 ## Table of Contents
 
+- [Database](#database)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Development](#development)
@@ -11,14 +12,19 @@ Plant Seedlings is a Convolutional Neural Network (CNN) application for recogniz
 - [Docker](#docker)
 - [License](#license)
 
+## Database
+
+Download the database from kaggle
+```kaggle datasets download -d moltean/fruits```
+
 ## Installation
 
 To install and set up the project, follow these steps:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/brtenorio/plant_seedlings.git
-    cd plant_seedlings
+    git clone https://github.com/brtenorio/fruit_detection.git
+    cd fruit_detection
     ```
 
 2. **Install Poetry (if not already installed):**

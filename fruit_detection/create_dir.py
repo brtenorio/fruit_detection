@@ -1,7 +1,7 @@
 import os
 import shutil
 from sklearn.model_selection import train_test_split
-from plant_seedlings.config import *
+from fruit_detection.config import *
 
 def create_dir():
 	if os.path.isdir(file_path):

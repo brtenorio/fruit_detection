@@ -1,6 +1,6 @@
 from keras.preprocessing.image import ImageDataGenerator
 from keras.applications.vgg16 import preprocess_input
-from plant_seedlings.config import *
+from fruit_detection.config import *
 
 #check existence of the dataset path: file_path
 if os.path.isdir(file_path):
@@ -40,6 +40,7 @@ steps_per_epoch_training = len(train_generator)
 steps_per_epoch_validation = len(validation_generator)
 
 # Optionally, the number of classes could be extracted automatically from data_generator
-#num_classes = train_generator.num_classes
+num_classes = train_generator.num_classes
+print("Number of classes identified: ", num_classes)
 
 print(steps_per_epoch_training,steps_per_epoch_validation)

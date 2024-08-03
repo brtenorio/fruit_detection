@@ -1,5 +1,5 @@
-from plant_seedlings.config import *
-from plant_seedlings.data_generator import *
+from fruit_detection.config import *
+from fruit_detection.data_generator import *
 
 def train_model(model):
         model.fit(train_generator,

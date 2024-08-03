@@ -1,7 +1,7 @@
-# Makefile for plant_seedlings project
+# Makefile for fruit_detection project
 
 # Variables
-PROJECT_NAME = Plant_Seedlings
+PROJECT_NAME = fruit_detection
 PYTHON = python3
 PIP = pip
 POETRY = poetry
@@ -29,7 +29,7 @@ test:
 
 retrain-model:
 	@echo "Retrain and regenerate model file"
-	$(POETRY) run python3 plant_seedlings/main.py
+	$(POETRY) run python3 fruit_detection/main.py
 
 docker-build:
 	@echo "Building Docker image..."

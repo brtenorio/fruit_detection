@@ -4,7 +4,7 @@ import os
 rs = 42
 
 # set the path for the data base containing the images
-file_path = "/Users/brncat/Downloads/AltaVerde/GitHub/seeds_db/"
+file_path = "/Users/brncat/Downloads/AltaVerde/GitHub/fruits_db/fruits-360-original-size/fruits-360-original-size"
 
 # Define paths
 main_dir = os.path.join(file_path,'main')
@@ -17,7 +17,7 @@ train_ratio = 0.7
 val_ratio = 0.15
 test_ratio = 0.15
 
-num_classes = 12
+num_classes = 24
 
 image_resize = 224
 

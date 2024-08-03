@@ -1,6 +1,6 @@
 import pytest 
-from plant_seedlings.evaluate_model import evaluate_model
-from plant_seedlings.data_generator import test_generator
+from fruit_detection.evaluate_model import evaluate_model
+from fruit_detection.data_generator import test_generator
 
 def test_model():
     eval = evaluate_model(test_generator)
